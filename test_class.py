@@ -3,6 +3,7 @@ import requests
 
 from json_objs import JsonObj
 from main_app import *
+from random import randint
 
 global_user = 'Dima_Himenes'
 global_pass = 'Dima_Himenes'
@@ -58,3 +59,7 @@ def test_search_issue(search_jql, res):
 def test_update_issue(file_name, issue_id, res):
     assert res == requests.request("PUT", global_url + 'issue/' + issue_id, data=JsonObj(file_name).read_json(),
                                    headers=global_headers).status_code
+
+
+def test_random():
+    assert randint(1, 2) == 2

@@ -1,3 +1,4 @@
+apipkg==1.5
 atomicwrites==1.1.5
 attrs==18.1.0
 certifi==2018.8.13
@@ -5,6 +6,7 @@ chardet==3.0.4
 colorama==0.3.9
 cycler==0.10.0
 Django==2.1
+execnet==1.5.0
 idna==2.7
 kiwisolver==1.0.1
 matplotlib==2.2.3
@@ -14,6 +16,9 @@ pluggy==0.7.1
 py==1.5.4
 pyparsing==2.2.0
 pytest==3.7.2
+pytest-forked==0.2
+pytest-rerunfailures==4.1
+pytest-xdist==1.22.5
 python-dateutil==2.7.3
 pytz==2018.5
 requests==2.19.1
