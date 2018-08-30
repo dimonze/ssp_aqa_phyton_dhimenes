@@ -50,8 +50,7 @@ jobs:
             . venv/bin/activate
             chmod 755 ./drivers/chromedriver
             ls -la ./drivers
-            whereis chrome
-            locate chrome
+            whereis google-chrome
             pytest -n 4 --reruns 2 --driver Chrome --driver-path ./drivers/chromedriver
 
       - store_artifacts:
