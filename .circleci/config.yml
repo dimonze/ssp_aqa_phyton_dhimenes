@@ -48,7 +48,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            chmod +X ./drivers/chromedriver
+            chmod 755 ./drivers/chromedriver
             ls -la ./drivers
             pytest -n 4 --reruns 2 --driver Chrome --driver-path ./drivers/chromedriver
 
