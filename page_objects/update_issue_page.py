@@ -26,13 +26,11 @@ class UpdateIssuePage(BasicPage):
         if len(value) < 1:
             return True
         self.wait.until(EC.visibility_of_element_located(self.ASSIGNEE_INPUT)).send_keys(value)
-        # self.wait.until(EC.visibility_of_element_located((By.XPATH, "//label[contains(.,'" + value + "')]"))).click()
 
     def select_prio(self, value):
         if len(value) < 1:
             return True
         self.wait.until(EC.visibility_of_element_located(self.PRIO_INPUT)).send_keys(value)
-        # self.wait.until(EC.visibility_of_element_located((By.XPATH, "//label[contains(.,'" + value + "')]"))).click()
 
     def press_updatebtn(self):
         self.wait.until(EC.visibility_of_element_located(self.UPDATE_BTN)).click()
