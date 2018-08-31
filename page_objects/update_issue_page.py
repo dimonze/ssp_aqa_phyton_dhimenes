@@ -1,3 +1,5 @@
+import allure
+
 from page_objects.basic_page import BasicPage
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -13,27 +15,33 @@ class UpdateIssuePage(BasicPage):
     UPDATE_BTN = (By.CSS_SELECTOR, "#edit-issue-submit")
     EDIT_BTN = (By.CSS_SELECTOR, "#edit-issue")
 
+    @allure.step
     def press_editbtn(self):
         self.wait.until(EC.visibility_of_element_located(self.EDIT_BTN)).click()
 
+    @allure.step
     def fill_summary(self, value):
         if len(value) < 1:
             return True
         self.wait.until(EC.visibility_of_element_located(self.SUMMARY_INPUT)).clear()
         self.wait.until(EC.visibility_of_element_located(self.SUMMARY_INPUT)).send_keys(value)
 
+    @allure.step
     def select_assignee(self, value):
         if len(value) < 1:
             return True
         self.wait.until(EC.visibility_of_element_located(self.ASSIGNEE_INPUT)).send_keys(value)
 
+    @allure.step
     def select_prio(self, value):
         if len(value) < 1:
             return True
         self.wait.until(EC.visibility_of_element_located(self.PRIO_INPUT)).send_keys(value)
 
+    @allure.step
     def press_updatebtn(self):
         self.wait.until(EC.visibility_of_element_located(self.UPDATE_BTN)).click()
 
+    @allure.step
     def wait_for_result(self, result):
         return self.wait.until(EC.visibility_of_element_located((By.XPATH, "//*[contains(.,'" + result + "')]"))).text
