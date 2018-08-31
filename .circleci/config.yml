@@ -33,11 +33,11 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            wget https://github.com/allure-framework/allure1/archive/1.5.4.zip
+            wget https://bintray.com/qameta/generic/download_file?file_path=io%2Fqameta%2Fallure%2Fallure%2F2.7.0%2Fallure-2.7.0.zip
             ls -la
-            unzip 1.5.4.zip
+            unzip allure-2.7.0.zip
             ls -la
-            cd allure1-1.5.4
+            cd allure-2.7.0
             ls -la
             pwd
 #            sudo apt-add-repository ppa:qameta/allure
