@@ -1,0 +1,158 @@
+{
+  "uid" : "f47e401d7cff2b0a",
+  "name" : "test_ui_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"-0]",
+  "fullName" : "tests.test_selenium.TestJira#test_ui_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"-0]",
+  "historyId" : "e97eea5e074a64b677bb1dc562a75c07",
+  "time" : {
+    "start" : 1535642711741,
+    "stop" : 1535642750776,
+    "duration" : 39035
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1535642574312,
+      "stop" : 1535642579725,
+      "duration" : 5413
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1535642572207,
+      "stop" : 1535642572207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1535642572207,
+      "stop" : 1535642572207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1535642572207,
+      "stop" : 1535642572207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1535642711740,
+      "stop" : 1535642711740,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1535642750793,
+      "stop" : 1535642752869,
+      "duration" : 2076
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJira"
+  }, {
+    "name" : "host",
+    "value" : "lvl1302006"
+  }, {
+    "name" : "thread",
+    "value" : "25296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "res",
+    "value" : "0"
+  }, {
+    "name" : "search_jql",
+    "value" : "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"'"
+  } ],
+  "links" : [ {
+    "name" : "Test-UI-Search-issue",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init')" ]
+  },
+  "source" : "f47e401d7cff2b0a.json",
+  "parameterValues" : [ "0", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"'" ]
+}

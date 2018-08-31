@@ -1,0 +1,341 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_ui_login_to_jira[Dima_Himenes-Dima_Himene-123123]",
+    "uid" : "26208a15f1c14f35",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1535632432474,
+      "stop" : 1535632447967,
+      "duration" : 15493
+    },
+    "flaky" : false,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himene'", "'123123'" ]
+  }, {
+    "name" : "Test-UI-Login-to-Jira",
+    "uid" : "4c3b71769518c22d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535643206277,
+      "stop" : 1535643235332,
+      "duration" : 29055
+    },
+    "flaky" : false,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himene'", "'please try again'" ]
+  }, {
+    "name" : "test_login_to_jira[Dima_Himene-Dima_Himenes-401]",
+    "uid" : "7db2377a7c81dc69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922077,
+      "stop" : 1535706922289,
+      "duration" : 212
+    },
+    "flaky" : false,
+    "parameters" : [ "'Dima_Himene'", "'Dima_Himenes'", "401" ]
+  }, {
+    "name" : "test_login_to_jira[Dima_Himenes-Dima_Himene-401]",
+    "uid" : "5fddf3ab64dcaa61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922077,
+      "stop" : 1535706922572,
+      "duration" : 495
+    },
+    "flaky" : true,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himene'", "401" ]
+  }, {
+    "name" : "test_negative",
+    "uid" : "8b21e49712d23c20",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922078,
+      "stop" : 1535706922078,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_positive",
+    "uid" : "509ccc0a12249252",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922079,
+      "stop" : 1535706922081,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_create_issue[create_issue.json-201]",
+    "uid" : "a58a13299db7531f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922101,
+      "stop" : 1535706922686,
+      "duration" : 585
+    },
+    "flaky" : true,
+    "parameters" : [ "'create_issue.json'", "201" ]
+  }, {
+    "name" : "test_login_to_jira[Dima_Himenes-Dima_Himenes-200]",
+    "uid" : "117441aec8b46b3b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922118,
+      "stop" : 1535706922510,
+      "duration" : 392
+    },
+    "flaky" : true,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himenes'", "200" ]
+  }, {
+    "name" : "test_create_issue[create_issue_missing_field.json-400]",
+    "uid" : "7b71e12ae82dfbef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922311,
+      "stop" : 1535706922579,
+      "duration" : 268
+    },
+    "flaky" : true,
+    "parameters" : [ "'create_issue_missing_field.json'", "400" ]
+  }, {
+    "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"-0]",
+    "uid" : "d0b8b0c829f8a3d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922542,
+      "stop" : 1535706922769,
+      "duration" : 227
+    },
+    "flaky" : true,
+    "parameters" : [ "0", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"'" ]
+  }, {
+    "name" : "test_create_issue[create_issue_long_text.json-400]",
+    "uid" : "c27b731f09c3722f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922609,
+      "stop" : 1535706922821,
+      "duration" : 212
+    },
+    "flaky" : true,
+    "parameters" : [ "'create_issue_long_text.json'", "400" ]
+  }, {
+    "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"-5]",
+    "uid" : "9802030b2d0c7941",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922610,
+      "stop" : 1535706923150,
+      "duration" : 540
+    },
+    "flaky" : true,
+    "parameters" : [ "5", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"'" ]
+  }, {
+    "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"-1]",
+    "uid" : "d6b5fda5b2c2e284",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922702,
+      "stop" : 1535706922879,
+      "duration" : 177
+    },
+    "flaky" : true,
+    "parameters" : [ "1", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"'" ]
+  }, {
+    "name" : "test_update_issue[update_issue_summary.json-AQAPYTHON-5-204]",
+    "uid" : "4391fb298b4dc690",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922798,
+      "stop" : 1535706923035,
+      "duration" : 237
+    },
+    "flaky" : true,
+    "parameters" : [ "'update_issue_summary.json'", "'AQAPYTHON-5'", "204" ]
+  }, {
+    "name" : "test_update_issue[update_issue_priority.json-AQAPYTHON-5-204]",
+    "uid" : "49f43e83d57db913",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706922847,
+      "stop" : 1535706923043,
+      "duration" : 196
+    },
+    "flaky" : true,
+    "parameters" : [ "'update_issue_priority.json'", "'AQAPYTHON-5'", "204" ]
+  }, {
+    "name" : "test_update_issue[update_issue_assignee.json-AQAPYTHON-5-204]",
+    "uid" : "886e48f72c4219d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706923174,
+      "stop" : 1535706923345,
+      "duration" : 171
+    },
+    "flaky" : true,
+    "parameters" : [ "'update_issue_assignee.json'", "'AQAPYTHON-5'", "204" ]
+  }, {
+    "name" : "Test-UI-Login-to-Jira",
+    "uid" : "21f9d3763e4ba0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706925901,
+      "stop" : 1535706952720,
+      "duration" : 26819
+    },
+    "flaky" : false,
+    "parameters" : [ "'Dima_Himene'", "'Dima_Himenes'", "'please try again'" ]
+  }, {
+    "name" : "Test-UI-Search-issue",
+    "uid" : "5fb75f2558807dbe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706929773,
+      "stop" : 1535706957332,
+      "duration" : 27559
+    },
+    "flaky" : true,
+    "parameters" : [ "1", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"'" ]
+  }, {
+    "name" : "Test-UI-Login-to-Jira",
+    "uid" : "4bc5283a3ff8fe59",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706930365,
+      "stop" : 1535706951967,
+      "duration" : 21602
+    },
+    "flaky" : true,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himenes'", "'System Dashboard'" ]
+  }, {
+    "name" : "Test-UI-Search-issue",
+    "uid" : "503447f06ffa0417",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706962832,
+      "stop" : 1535707001694,
+      "duration" : 38862
+    },
+    "flaky" : false,
+    "parameters" : [ "0", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"'" ]
+  }, {
+    "name" : "Test-UI-Create-issue",
+    "uid" : "dede085d87af0d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706964813,
+      "stop" : 1535706998558,
+      "duration" : 33745
+    },
+    "flaky" : true,
+    "parameters" : [ "'Creating of an issue using project keys and issue type names using the REST API 2'", "'summary: You must specify a summary of the issue.'", "''" ]
+  }, {
+    "name" : "Test-UI-Create-issue",
+    "uid" : "fc97a46fc38785e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535706965270,
+      "stop" : 1535707002987,
+      "duration" : 37717
+    },
+    "flaky" : true,
+    "parameters" : [ "'Creating of an issue using project keys and issue type names using the REST API 2'", "'summary: Summary must be less than 255 characters.'", "'zxczxcaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'" ]
+  }, {
+    "name" : "Test-UI-Login-to-Jira",
+    "uid" : "d20b576afdeda9c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1535707007613,
+      "stop" : 1535707030257,
+      "duration" : 22644
+    },
+    "flaky" : true,
+    "parameters" : [ "'Dima_Himenes'", "'Dima_Himene'", "'please ry again'" ]
+  }, {
+    "name" : "Test-UI-Update-issue",
+    "uid" : "39b9564014004290",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1535707069045,
+      "stop" : 1535707087223,
+      "duration" : 18178
+    },
+    "flaky" : true,
+    "parameters" : [ "''", "'AQAPYTHON-721'", "''", "'AQAPYTHON-721 has been updated.'", "'New Summary'" ]
+  }, {
+    "name" : "Test-UI-Create-issue",
+    "uid" : "d7efd2309dafcf42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535707095465,
+      "stop" : 1535707138409,
+      "duration" : 42944
+    },
+    "flaky" : true,
+    "parameters" : [ "'Creating of an issue using project keys and issue type names using the REST API 2'", "'REST ye merry gentlemen.'", "'REST ye merry gentlemen.'" ]
+  }, {
+    "name" : "Test-UI-Search-issue",
+    "uid" : "afcda1a35cc4eea8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1535707096026,
+      "stop" : 1535707130650,
+      "duration" : 34624
+    },
+    "flaky" : true,
+    "parameters" : [ "5", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"'" ]
+  }, {
+    "name" : "Test-UI-Update-issue",
+    "uid" : "efaa57dc2fbb754c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1535707169350,
+      "stop" : 1535707192761,
+      "duration" : 23411
+    },
+    "flaky" : true,
+    "parameters" : [ "'DIma_Himenes'", "'AQAPYTHON-721'", "''", "'AQAPYTHON-721 has been updated.'", "''" ]
+  }, {
+    "name" : "Test-UI-Update-issue",
+    "uid" : "b466ddf4cf32b0eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1535707175258,
+      "stop" : 1535707197238,
+      "duration" : 21980
+    },
+    "flaky" : true,
+    "parameters" : [ "''", "'AQAPYTHON-721'", "'High'", "'AQAPYTHON-721 has been updated.'", "''" ]
+  } ]
+}

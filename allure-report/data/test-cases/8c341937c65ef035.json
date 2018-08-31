@@ -1,0 +1,160 @@
+{
+  "uid" : "8c341937c65ef035",
+  "name" : "test_ui_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"-1]",
+  "fullName" : "tests.test_selenium.TestJira#test_ui_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"-1]",
+  "historyId" : "8fe8e0bc3eba631891ef76bb9c38fde6",
+  "time" : {
+    "start" : 1535642603859,
+    "stop" : 1535642701913,
+    "duration" : 98054
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 0\n +  where 0 = <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>>()\n +    where <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>> = <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>.get_count_of_issues",
+  "statusTrace" : "self = <tests.test_selenium.TestJira object at 0x044A1CD0>\nsearch_jql = 'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"'\nres = 1\n\n    @pytest.mark.parametrize(\"search_jql,res\", [\n        ('project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"', 1),\n        ('project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"', 0),\n        ('project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"', 5),\n    ])\n    @allure.testcase('', 'Test-UI-Search-issue')\n    def test_ui_search_issue(self, search_jql, res):\n        self.driver.get(global_url_ui + '?' + global_auth)\n        self.driver.get(global_url_ui + 'browse/XH-144?jql=' + search_jql)\n    \n        search_issue_page = SearchIssuePage(self.driver)\n>       assert res == search_issue_page.get_count_of_issues()\nE       assert 1 == 0\nE        +  where 0 = <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>>()\nE        +    where <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>> = <page_objects.search_issue_page.SearchIssuePage object at 0x03F7DC10>.get_count_of_issues\n\ntests\\test_selenium.py:56: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1535642572204,
+      "stop" : 1535642572204,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1535642572204,
+      "stop" : 1535642572204,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1535642574159,
+      "stop" : 1535642577003,
+      "duration" : 2844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1535642603858,
+      "stop" : 1535642603858,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1535642572204,
+      "stop" : 1535642572204,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1535642746695,
+      "stop" : 1535642748826,
+      "duration" : 2131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJira"
+  }, {
+    "name" : "host",
+    "value" : "lvl1302006"
+  }, {
+    "name" : "thread",
+    "value" : "23672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "res",
+    "value" : "1"
+  }, {
+    "name" : "search_jql",
+    "value" : "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"'"
+  } ],
+  "links" : [ {
+    "name" : "Test-UI-Search-issue",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init')" ]
+  },
+  "source" : "8c341937c65ef035.json",
+  "parameterValues" : [ "1", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"'" ]
+}

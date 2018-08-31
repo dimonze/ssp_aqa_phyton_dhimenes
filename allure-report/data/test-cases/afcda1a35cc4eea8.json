@@ -1,0 +1,198 @@
+{
+  "uid" : "afcda1a35cc4eea8",
+  "name" : "Test-UI-Search-issue",
+  "fullName" : "tests.test_selenium.TestJira#test_ui_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"-5]",
+  "historyId" : "49f4d85b3bc163253b65747185d5c237",
+  "time" : {
+    "start" : 1535707096026,
+    "stop" : 1535707130650,
+    "duration" : 34624
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1535707089964,
+      "stop" : 1535707096024,
+      "duration" : 6060
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1535707089963,
+      "stop" : 1535707089964,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1535707130656,
+      "stop" : 1535707132850,
+      "duration" : 2194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJira"
+  }, {
+    "name" : "host",
+    "value" : "lvl1302006"
+  }, {
+    "name" : "thread",
+    "value" : "26884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "res",
+    "value" : "5"
+  }, {
+    "name" : "search_jql",
+    "value" : "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94ef2d63b74c6b42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643251206,
+        "stop" : 1535643270668,
+        "duration" : 19462
+      }
+    }, {
+      "uid" : "d11177da60c1a567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643082628,
+        "stop" : 1535643102214,
+        "duration" : 19586
+      }
+    }, {
+      "uid" : "9847b645b293b9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642619179,
+        "stop" : 1535642629818,
+        "duration" : 10639
+      }
+    }, {
+      "uid" : "d6256349c5b845c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642304526,
+        "stop" : 1535642326610,
+        "duration" : 22084
+      }
+    }, {
+      "uid" : "76a057176668d030",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 5 == 0\n +  where 0 = <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x04F76B90>>()\n +    where <bound method SearchIssuePage.get_count_of_issues of <page_objects.search_issue_page.SearchIssuePage object at 0x04F76B90>> = <page_objects.search_issue_page.SearchIssuePage object at 0x04F76B90>.get_count_of_issues",
+      "time" : {
+        "start" : 1535632510929,
+        "stop" : 1535632522529,
+        "duration" : 11600
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init')" ]
+  },
+  "source" : "afcda1a35cc4eea8.json",
+  "parameterValues" : [ "5", "'project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"'" ]
+}

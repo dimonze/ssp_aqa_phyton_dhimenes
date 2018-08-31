@@ -1,0 +1,240 @@
+{
+  "uid" : "efaa57dc2fbb754c",
+  "name" : "Test-UI-Update-issue",
+  "fullName" : "tests.test_selenium.TestJira#test_ui_update_issue[--DIma_Himenes-AQAPYTHON-721-AQAPYTHON-721 has been updated.]",
+  "historyId" : "eefcfdffe6702aee2dd2db58d6a4c3bc",
+  "time" : {
+    "start" : 1535707169350,
+    "stop" : 1535707192761,
+    "duration" : 23411
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <tests.test_selenium.TestJira object at 0x001A52B0>, summary = ''\npriority = '', assignee = 'DIma_Himenes', issue_id = 'AQAPYTHON-721'\nres = 'AQAPYTHON-721 has been updated.'\n\n    @pytest.mark.parametrize(\"summary,priority,assignee,issue_id,res\", [\n        ('New Summary', '', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n        ('', 'High', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n        ('', '', 'DIma_Himenes', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n    ])\n    @allure.title('Test-UI-Update-issue')\n    def test_ui_update_issue(self, summary, priority, assignee, issue_id,  res):\n        self.driver.get(global_url_ui + 'browse/' + issue_id + '?' + global_auth)\n        update_issue_page = UpdateIssuePage(self.driver)\n>       update_issue_page.press_editbtn()\n\ntests\\test_selenium.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_objects\\update_issue_page.py:17: in press_editbtn\n    self.wait.until(EC.visibility_of_element_located(self.EDIT_BTN)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"6a344cd7b3fb1274af1277399cee4685\")>\nmethod = <selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x001A5130>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "driver_init",
+    "time" : {
+      "start" : 1535707166979,
+      "stop" : 1535707169348,
+      "duration" : 2369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1535707166978,
+      "stop" : 1535707166978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1535707166977,
+      "stop" : 1535707166977,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1535707166979,
+      "stop" : 1535707166979,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1535707166978,
+      "stop" : 1535707166978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <tests.test_selenium.TestJira object at 0x001A52B0>, summary = ''\npriority = '', assignee = 'DIma_Himenes', issue_id = 'AQAPYTHON-721'\nres = 'AQAPYTHON-721 has been updated.'\n\n    @pytest.mark.parametrize(\"summary,priority,assignee,issue_id,res\", [\n        ('New Summary', '', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n        ('', 'High', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n        ('', '', 'DIma_Himenes', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),\n    ])\n    @allure.title('Test-UI-Update-issue')\n    def test_ui_update_issue(self, summary, priority, assignee, issue_id,  res):\n        self.driver.get(global_url_ui + 'browse/' + issue_id + '?' + global_auth)\n        update_issue_page = UpdateIssuePage(self.driver)\n>       update_issue_page.press_editbtn()\n\ntests\\test_selenium.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_objects\\update_issue_page.py:17: in press_editbtn\n    self.wait.until(EC.visibility_of_element_located(self.EDIT_BTN)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"6a344cd7b3fb1274af1277399cee4685\")>\nmethod = <selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x001A5130>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n            return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "648cc235def70646",
+      "name" : "test_ui_update_issue[--DIma_Himenes-AQAPYTHON-721-AQAPYTHON-721 has been updated.]",
+      "source" : "648cc235def70646.png",
+      "type" : "image/png",
+      "size" : 38327
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "driver_init::0",
+    "time" : {
+      "start" : 1535707199146,
+      "stop" : 1535707201510,
+      "duration" : 2364
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_init')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJira"
+  }, {
+    "name" : "host",
+    "value" : "lvl1302006"
+  }, {
+    "name" : "thread",
+    "value" : "11332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assignee",
+    "value" : "'DIma_Himenes'"
+  }, {
+    "name" : "issue_id",
+    "value" : "'AQAPYTHON-721'"
+  }, {
+    "name" : "priority",
+    "value" : "''"
+  }, {
+    "name" : "res",
+    "value" : "'AQAPYTHON-721 has been updated.'"
+  }, {
+    "name" : "summary",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b3e46afbd8a889f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1535707136720,
+        "stop" : 1535707164203,
+        "duration" : 27483
+      }
+    }, {
+      "uid" : "e957e2380bfa426f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1535707093461,
+        "stop" : 1535707129963,
+        "duration" : 36502
+      }
+    }, {
+      "uid" : "88ad7b9c26e74ab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643282088,
+        "stop" : 1535643293814,
+        "duration" : 11726
+      }
+    }, {
+      "uid" : "eed754e427700522",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643108234,
+        "stop" : 1535643145667,
+        "duration" : 37433
+      }
+    }, {
+      "uid" : "a067b0c7350a9aee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642711742,
+        "stop" : 1535642747580,
+        "duration" : 35838
+      }
+    }, {
+      "uid" : "d3a006f1b78b4763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642304528,
+        "stop" : 1535642314102,
+        "duration" : 9574
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_init')" ]
+  },
+  "source" : "efaa57dc2fbb754c.json",
+  "parameterValues" : [ "'DIma_Himenes'", "'AQAPYTHON-721'", "''", "'AQAPYTHON-721 has been updated.'", "''" ]
+}

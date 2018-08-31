@@ -1,0 +1,159 @@
+{
+  "uid" : "7b71e12ae82dfbef",
+  "name" : "test_create_issue[create_issue_missing_field.json-400]",
+  "fullName" : "tests.test_api#test_create_issue[create_issue_missing_field.json-400]",
+  "historyId" : "68559822cd8989c1ca8350dd23ab1b30",
+  "time" : {
+    "start" : 1535706922311,
+    "stop" : 1535706922579,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922076,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1535706922075,
+      "stop" : 1535706922075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1535706922310,
+      "stop" : 1535706922310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "lvl1302006"
+  }, {
+    "name" : "thread",
+    "value" : "28416-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "file_name",
+    "value" : "'create_issue_missing_field.json'"
+  }, {
+    "name" : "res",
+    "value" : "400"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e1764097c325d63c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643201246,
+        "stop" : 1535643202635,
+        "duration" : 1389
+      }
+    }, {
+      "uid" : "255e8251f5b72377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535643032932,
+        "stop" : 1535643033297,
+        "duration" : 365
+      }
+    }, {
+      "uid" : "e1ecac8f007f927d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642572462,
+        "stop" : 1535642572677,
+        "duration" : 215
+      }
+    }, {
+      "uid" : "bcff3ddc222e8be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535642237820,
+        "stop" : 1535642238056,
+        "duration" : 236
+      }
+    }, {
+      "uid" : "656e49abf76a5651",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 403\n +  where 403 = <Response [403]>.status_code\n +    where <Response [403]> = <function request at 0x047E3FA8>('POST', ('http://jira.hillel.it:8080/rest/api/2/' + 'issue/'), data=<_io.BufferedReader name='json/create_issue_missing_field.json'>, headers={'Authorization': 'Basic RGltYV9IaW1lbmVzOkRpbWFfSGltZW5lcw==', 'Content-Type': 'application/json'})\n +      where <function request at 0x047E3FA8> = requests.request\n +      and   <_io.BufferedReader name='json/create_issue_missing_field.json'> = <bound method JsonObj.read_json of <tests.utils.json_objs.JsonObj object at 0x04E68B10>>()\n +        where <bound method JsonObj.read_json of <tests.utils.json_objs.JsonObj object at 0x04E68B10>> = <tests.utils.json_objs.JsonObj object at 0x04E68B10>.read_json\n +          where <tests.utils.json_objs.JsonObj object at 0x04E68B10> = JsonObj('create_issue_missing_field.json')",
+      "time" : {
+        "start" : 1535632426325,
+        "stop" : 1535632426543,
+        "duration" : 218
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b71e12ae82dfbef.json",
+  "parameterValues" : [ "'create_issue_missing_field.json'", "400" ]
+}

@@ -1,0 +1,281 @@
+[ {
+  "uid" : "8b21e49712d23c20",
+  "name" : "test_negative",
+  "time" : {
+    "start" : 1535706922078,
+    "stop" : 1535706922078,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb75f2558807dbe",
+  "name" : "Test-UI-Search-issue",
+  "time" : {
+    "start" : 1535706929773,
+    "stop" : 1535706957332,
+    "duration" : 27559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "503447f06ffa0417",
+  "name" : "Test-UI-Search-issue",
+  "time" : {
+    "start" : 1535706962832,
+    "stop" : 1535707001694,
+    "duration" : 38862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a58a13299db7531f",
+  "name" : "test_create_issue[create_issue.json-201]",
+  "time" : {
+    "start" : 1535706922101,
+    "stop" : 1535706922686,
+    "duration" : 585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db2377a7c81dc69",
+  "name" : "test_login_to_jira[Dima_Himene-Dima_Himenes-401]",
+  "time" : {
+    "start" : 1535706922077,
+    "stop" : 1535706922289,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9802030b2d0c7941",
+  "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"superIDis*\"-5]",
+  "time" : {
+    "start" : 1535706922610,
+    "stop" : 1535706923150,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bc5283a3ff8fe59",
+  "name" : "Test-UI-Login-to-Jira",
+  "time" : {
+    "start" : 1535706930365,
+    "stop" : 1535706951967,
+    "duration" : 21602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b71e12ae82dfbef",
+  "name" : "test_create_issue[create_issue_missing_field.json-400]",
+  "time" : {
+    "start" : 1535706922311,
+    "stop" : 1535706922579,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26208a15f1c14f35",
+  "name" : "test_ui_login_to_jira[Dima_Himenes-Dima_Himene-123123]",
+  "time" : {
+    "start" : 1535632432474,
+    "stop" : 1535632447967,
+    "duration" : 15493
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d6b5fda5b2c2e284",
+  "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-6\"-1]",
+  "time" : {
+    "start" : 1535706922702,
+    "stop" : 1535706922879,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fddf3ab64dcaa61",
+  "name" : "test_login_to_jira[Dima_Himenes-Dima_Himene-401]",
+  "time" : {
+    "start" : 1535706922077,
+    "stop" : 1535706922572,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "886e48f72c4219d",
+  "name" : "test_update_issue[update_issue_assignee.json-AQAPYTHON-5-204]",
+  "time" : {
+    "start" : 1535706923174,
+    "stop" : 1535706923345,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc97a46fc38785e9",
+  "name" : "Test-UI-Create-issue",
+  "time" : {
+    "start" : 1535706965270,
+    "stop" : 1535707002987,
+    "duration" : 37717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "117441aec8b46b3b",
+  "name" : "test_login_to_jira[Dima_Himenes-Dima_Himenes-200]",
+  "time" : {
+    "start" : 1535706922118,
+    "stop" : 1535706922510,
+    "duration" : 392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39b9564014004290",
+  "name" : "Test-UI-Update-issue",
+  "time" : {
+    "start" : 1535707069045,
+    "stop" : 1535707087223,
+    "duration" : 18178
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0b8b0c829f8a3d2",
+  "name" : "test_search_issue[project%20%3D%20AQAPYTHON%20AND%20text%20~%20\"AQAPYTHON-0\"-0]",
+  "time" : {
+    "start" : 1535706922542,
+    "stop" : 1535706922769,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afcda1a35cc4eea8",
+  "name" : "Test-UI-Search-issue",
+  "time" : {
+    "start" : 1535707096026,
+    "stop" : 1535707130650,
+    "duration" : 34624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7efd2309dafcf42",
+  "name" : "Test-UI-Create-issue",
+  "time" : {
+    "start" : 1535707095465,
+    "stop" : 1535707138409,
+    "duration" : 42944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "509ccc0a12249252",
+  "name" : "test_positive",
+  "time" : {
+    "start" : 1535706922079,
+    "stop" : 1535706922081,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49f43e83d57db913",
+  "name" : "test_update_issue[update_issue_priority.json-AQAPYTHON-5-204]",
+  "time" : {
+    "start" : 1535706922847,
+    "stop" : 1535706923043,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c3b71769518c22d",
+  "name" : "Test-UI-Login-to-Jira",
+  "time" : {
+    "start" : 1535643206277,
+    "stop" : 1535643235332,
+    "duration" : 29055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f9d3763e4ba0a",
+  "name" : "Test-UI-Login-to-Jira",
+  "time" : {
+    "start" : 1535706925901,
+    "stop" : 1535706952720,
+    "duration" : 26819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dede085d87af0d9",
+  "name" : "Test-UI-Create-issue",
+  "time" : {
+    "start" : 1535706964813,
+    "stop" : 1535706998558,
+    "duration" : 33745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d20b576afdeda9c",
+  "name" : "Test-UI-Login-to-Jira",
+  "time" : {
+    "start" : 1535707007613,
+    "stop" : 1535707030257,
+    "duration" : 22644
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b466ddf4cf32b0eb",
+  "name" : "Test-UI-Update-issue",
+  "time" : {
+    "start" : 1535707175258,
+    "stop" : 1535707197238,
+    "duration" : 21980
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4391fb298b4dc690",
+  "name" : "test_update_issue[update_issue_summary.json-AQAPYTHON-5-204]",
+  "time" : {
+    "start" : 1535706922798,
+    "stop" : 1535706923035,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c27b731f09c3722f",
+  "name" : "test_create_issue[create_issue_long_text.json-400]",
+  "time" : {
+    "start" : 1535706922609,
+    "stop" : 1535706922821,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efaa57dc2fbb754c",
+  "name" : "Test-UI-Update-issue",
+  "time" : {
+    "start" : 1535707169350,
+    "stop" : 1535707192761,
+    "duration" : 23411
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
