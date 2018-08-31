@@ -37,6 +37,9 @@ jobs:
             ls -la
             unzip 1.5.4.zip
             ls -la
+            cd allure1-1.5.4
+            ls -la
+            pwd
 #            sudo apt-add-repository ppa:qameta/allure
 #            sudo apt-get update
 #            sudo apt-get install allure
