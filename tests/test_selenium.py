@@ -11,7 +11,7 @@ from .utils.global_scope import *
 class TestJira:
 
     @pytest.mark.parametrize("login,passwd,res", [
-        ("Dima_Himenes", "Dima_Himene", "please ry again"),
+        ("Dima_Himenes", "Dima_Himene", "please try again"),
         ("Dima_Himene", "Dima_Himenes", "please try again"),
         ("Dima_Himenes", "Dima_Himenes", "System Dashboard"),
     ])
