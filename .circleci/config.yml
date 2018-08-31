@@ -33,9 +33,13 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            sudo apt-add-repository ppa:qameta/allure
-            sudo apt-get update
-            sudo apt-get install allure
+            wget https://github.com/allure-framework/allure1/archive/1.5.4.zip
+            ls -la
+            unzip 1.5.4.zip
+            ls -la
+#            sudo apt-add-repository ppa:qameta/allure
+#            sudo apt-get update
+#            sudo apt-get install allure
 
       - save_cache:
           paths:
