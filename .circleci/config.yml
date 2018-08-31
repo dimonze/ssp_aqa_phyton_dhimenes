@@ -50,8 +50,8 @@ jobs:
             . venv/bin/activate
             chmod 755 ./drivers/chromedriver
             pytest -n 4 --reruns 2 --driver Chrome --driver-path ./drivers/chromedriver
-            allure serve ./allure_reports
+            allure generate
 
       - store_artifacts:
-          path: alure-reports
-          destination: alure-reports
+          path: allure-report
+          destination: allure-report

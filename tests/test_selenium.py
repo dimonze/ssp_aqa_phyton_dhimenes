@@ -55,9 +55,9 @@ class TestJira:
         assert res == search_issue_page.get_count_of_issues()
 
     @pytest.mark.parametrize("summary,priority,assignee,issue_id,res", [
-        ('New Summary', '', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),
-        ('', 'High', '', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),
-        ('', '', 'DIma_Himenes', 'AQAPYTHON-721', 'AQAPYTHON-721 has been updated.'),
+        ('New Summary', '', '', 'AQAPYTHON-720', 'AQAPYTHON-720 has been updated.'),
+        ('', 'High', '', 'AQAPYTHON-720', 'AQAPYTHON-720 has been updated.'),
+        ('', '', 'DIma_Himenes', 'AQAPYTHON-720', 'AQAPYTHON-720 has been updated.'),
     ])
     @allure.title('Test-UI-Update-issue')
     def test_ui_update_issue(self, summary, priority, assignee, issue_id,  res):
