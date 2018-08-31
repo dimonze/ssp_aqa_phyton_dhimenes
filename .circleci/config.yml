@@ -34,12 +34,8 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
             wget https://bintray.com/qameta/generic/download_file?file_path=io%2Fqameta%2Fallure%2Fallure%2F2.7.0%2Fallure-2.7.0.zip
-            ls -la
             unzip download_file?file_path=io%2Fqameta%2Fallure%2Fallure%2F2.7.0%2Fallure-2.7.0.zip
             export PATH=$PATH:/home/circleci/repo/allure-2.7.0/bin
-#            sudo apt-add-repository ppa:qameta/allure
-#            sudo apt-get update
-#            sudo apt-get install allure
 
       - save_cache:
           paths:
@@ -57,7 +53,7 @@ jobs:
             . venv/bin/activate
             chmod 755 ./drivers/chromedriver
             pytest -n 4 --reruns 2 --driver Chrome --driver-path ./drivers/chromedriver --alluredir=./allure-results
-            allure generate
+            allure generate -c
 
       - store_artifacts:
           path: allure-report
